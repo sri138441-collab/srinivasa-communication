@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: srinivasa-communication
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
