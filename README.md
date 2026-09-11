@@ -16,3 +16,7 @@ Use Docker runtime and deploy from the repository root. `Dockerfile` is at the r
 
 ## Important Render note
 Render Free web services have an ephemeral filesystem and can spin down when idle. The app therefore re-syncs when a visitor opens it. For true scheduled 24/7 background fetching independent of visitors, use a paid Render Cron Job or an external scheduler.
+
+
+## Official website links
+Automatic notifications may use public listing pages only to discover updates. Each notification stores a separate `source_url` for the listing and tries to resolve an `official_url` from the notification detail page. The UI never uses the FreeJobAlert page as the destination for the user. If a direct official link is not exposed, the app can use a limited verified organization homepage fallback; otherwise it marks the official link as pending.
